@@ -1,0 +1,70 @@
+{
+    "Header": {
+        "hello-world": "Bienvenidos a",
+        "ocupation": "IPS de salud ocupacional",
+        "scroll": "Desplazar Abajo"
+    },
+    "cta": {
+        "download": "Descargar CV",
+        "letsTalk": "Hablemos"
+    },
+    "about": {
+        "getToKnow": "Conóceme",
+        "aboutMe": "Acerca de mi",
+        "experience": "Experiencia",
+        "years": "3+ Años Desarrollando",
+        "clients": "Clientes",
+        "clientsNumber": "10+ Clientes",
+        "projects": "Projectos",
+        "ProjectsNumber": "15+ Projectos Completos",
+        "description": "Desarrollador venezolano, los libros de ejercicios y el aprendizaje son algunas de mis aficiones. Activista a favor de la tecnología como terapia para el mundo.",
+        "letsTalk": "Hablemos"
+    },
+    "experience": {
+        "skills": "Que Habilidades Tengo",
+        "title": "Mi Experiencia",
+        "frontend": "Tecnologías Frontend",
+        "advanced": "Avanzado",
+        "intermediate": "Intermedio",
+        "begginer": "Comenzando",
+        "backend": "Tecnologías Backend"
+    },
+    "services": {
+        "web": "Desarrollo Web",
+        "creation": "Creación de Sitios Web",
+        "software": "Software con Base de Datos",
+        "api": "Conexión con la Api de Whatsapp Busines",
+        "spa": "Single Page Aplication con Html Css y JS",
+        "content": "Gestión de Contenido",
+        "social": "Gestión de Redes Sociales",
+        "blog": "Creación de Blog",
+        "ads": "Google adds",
+        "seo": "Servicio tecnico de Seo",
+        "skills": "Otras Habilidades"
+    },
+    "portfolio": {
+        "work": "Mi Trabajo Reciente",
+        "title": "Portafolio",
+        "visit": "Visitar"
+    },
+    "contact": {
+        "touch": "Mantengámonos en Contacto",
+        "me": "Contáctame",
+        "sendA": "Envíame un Mensaje",
+        "send": "Enviar Mensaje",
+        "name": "Tu Nombre Completo",
+        "email": "Tu Correo Electronico",
+        "message": "Tu Mensaje"
+    },
+    "footer": {
+        "home": "Inicio",
+        "about": "Acerca de Mi",
+        "experience": "Experiencia",
+        "portfolio": "Portafolio",
+        "services": "servicios",
+        "blog": "Blog",
+        "contact": "Contacto",
+        "developed": "Desarrollado por",
+        "all": "Todos los Derechos Reservados."
+    }
+}
