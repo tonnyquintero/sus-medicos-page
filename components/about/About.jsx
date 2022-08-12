@@ -12,7 +12,7 @@ const About = () => {
   const [t, i18n] = useTranslation("globals");
 
   return (
-    <section id='about'>
+    <section className={styles['nosotros']} id='about'>
       <h5>{t('about.getToKnow')}</h5>
       <h2>{t('about.aboutMe')}</h2>
 

@@ -15,7 +15,7 @@
 }
 
 .testimonial {
-    background: var(--color-bg-variant);
+    background: gray;
     text-align: center;
     padding: 2rem;
     border-radius: 2rem;
@@ -23,18 +23,24 @@
 }
 
 .client_review {
-    color: var(--color-light);
+    color: white;
     font-weight: 300;
     display: block;
     width: 80%;
     margin: 0.8rem auto 0;
 }
 
+.client_name {
+    color: white;
+    font-weight: 700;
+    font-size: x-large;
+}
+
 .btn_blog {
     width: max-content;
     background: var(--color-primary);
     display: inline-block;
-    color: var(--color-bg);
+    color: white;
     font-weight: bold;
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;

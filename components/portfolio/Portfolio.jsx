@@ -69,17 +69,17 @@ const Portfolio = () => {
       <h5>{t("portfolio.work")}</h5>
       <h2>{t("portfolio.title")}</h2>
 
-      <div className="container portfolio_container">
+      <div className={styles["portfolio_container"]}>
 
         {
           data.map(({id, title, image, gitHub, deploy}, index) => {
             return (
-              <article key={index} className='portfolio_item'>
-                <div className="portfolio_item-image">
+              <article key={index} className={styles['portfolio_item']}>
+                <div className={styles["portfolio_item-image"]}>
                   <Image src={image} alt={title} />
                 </div>
               <h3>{title}</h3>
-              <div className="portfolio_item-cta">
+              <div className={styles["portfolio_item-cta"]}>
                 <a href={gitHub} className='btn' target='_blank' rel='noreferrer'>Git Hub</a>
                 <a href={deploy} className='btn btn-primary' target='_blank' rel='noreferrer'>{t("portfolio.visit")}</a>
               </div>

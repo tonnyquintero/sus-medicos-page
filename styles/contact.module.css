@@ -5,10 +5,21 @@
     gap: 12%;
 }
 
+.containor {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    width: 58%;
+    display: grid;
+    grid-template-columns: 30% 58%;
+    gap: 12%;
+    
+}
+
 .contact_options {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
+    
 }
 
 .contact_option {
@@ -18,6 +29,7 @@
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
+    border: 2px solid var(--color-primary-variant);
 }
 
 .contact_option:hover {

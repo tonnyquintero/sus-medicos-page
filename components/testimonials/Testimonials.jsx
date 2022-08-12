@@ -57,7 +57,7 @@ const Testimonials = () => {
                 <div className={styles["client_avatar"]}>
                   <Image src={image} alt={title} />
                 </div>
-                <h5 className='client_name'>{title}</h5>
+                <h5 className={styles['client_name']}>{title}</h5>
                   <small className={styles['client_review']}>
                     {review}
                   </small>

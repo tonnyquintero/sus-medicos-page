@@ -1,17 +1,19 @@
 .header {
-    height: 100vh;
-    padding-top: 4rem;
+    height: 78vh;
+    padding-top: 6rem;
     overflow: hidden;
 }
 
 .header_container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
     text-align: center;
-    height: 100%;
+    height: 66%;
     position: relative;
 }
 
 .cta {
-    margin-top: 5rem;
+    margin-top: 2rem;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
@@ -24,6 +26,17 @@
     gap: 0.8rem;
     position: absolute;
     left: 0;
+    top: 161px;
+} 
+
+.header_socials2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    right: 0;
+    top: 161px;
 } 
 
 .header_socials::after {
@@ -95,39 +108,132 @@
 }
 
 .social_icons li:hover:nth-child(2) a {
-    background-color: #da0825;
+    background: linear-gradient(2deg,  #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
 }
 
 .social_icons li:hover:nth-child(2) a::before {
-    background-color: #da0825;
+    background: linear-gradient(2deg,  #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
 }
 
 .social_icons li:hover:nth-child(2) a::after {
-    background-color: #da0825;
+    background: #5851db;
 }
 
+
+
+
 .social_icons li:hover:nth-child(3) a {
-    background-color: #00acee;
+    background-color: #3b5998;
 }
 
 .social_icons li:hover:nth-child(3) a::before {
-    background-color: #00acee;
+    background-color: #3b5998;
 }
 
 .social_icons li:hover:nth-child(3) a::after {
-    background-color: #00acee;
+    background-color: #3b5998;
+}
+
+
+
+
+.social_icons2 li a {
+    position: relative;
+    display: block;
+    width: 80px;
+    height: 80px;
+    color: #555;
+    background: #fff;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    box-shadow: -20px 20px 10px rgb(0, 0, 0 / 50%);
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
+}
+
+.social_icons2 li a::before {
+    content: "";
+    position: absolute;
+    top: 19px;
+    left: -34px;
+    height: 100%;
+    width: 35px;
+    background: #b2b2b2;
+    transition: 0.5s;
+
+}
+
+.social_icons2 li a::after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: -18px;
+    height: 20px;
+    width: 100%;
+    background: #e5e5e5;
+    transition: 0.5s;
+    transform: skew(120deg)  rotate(0deg);
+}
+
+.social_icons2 li a:hover {
+    transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(20px, -20px);
+    box-shadow: -50px 50px 50px rgba(0, 0, 0, 0.5);
+}
+
+.social_icons2 li a:hover .fa {
+    color: #ffff;
+}
+
+
+
+.social_icons2 li:hover:nth-child(1) a {
+    background-color: #00bb2d;
+}
+
+.social_icons2 li:hover:nth-child(1) a::before {
+    background-color: #00bb2d;
+}
+
+.social_icons2 li:hover:nth-child(1) a::after {
+    background-color: #00bb2d;
+}
+
+.social_icons2 li:hover:nth-child(2) a {
+    background-color: #BA55D3;
+}
+
+.social_icons2 li:hover:nth-child(2) a::before {
+    background-color: #BA55D3;
+}
+
+.social_icons2 li:hover:nth-child(2) a::after {
+    background-color: #BA55D3;
+}
+
+
+.social_icons2 li:hover:nth-child(3) a {
+    background-color: white;
+}
+
+.social_icons2 li:hover:nth-child(3) a::before {
+    background-color: #c71610;
+}
+
+.social_icons2 li:hover:nth-child(3) a::after {
+    background-color: #c71610;
 }
 
 .me {
-
-    width: 20rem;
+    width: 39rem;
     height: 30rem;
     position: absolute;
-    left: calc(50% - 11rem);
-
-    border-radius: 12rem 12rem 0 0;
+    left: calc(27% - 2rem);
+    margin-top: 2rem;
     overflow: hidden;
     padding: 0rem 0rem 1.5rem 0rem;
+    justify-content: center;
 }
 
 .me img {
@@ -137,7 +243,7 @@
 .scroll_down {
     position: absolute;
     right: -2.3rem;
-    bottom: 5rem;
+    bottom: 14rem;
     transform: rotate(90deg);
     font-weight: 300;
     font-size: 0.9rem;

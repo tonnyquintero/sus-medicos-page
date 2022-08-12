@@ -25,78 +25,78 @@ const Experience = () => {
       <h5>{t('experience.skills')}</h5>
       <h2>{t('experience.title')}</h2>
 
-      <div className="container experience_container">
-        <div className="experience_frontend">
+      <div className={styles["experience_container"]}>
+        <div className={styles["experience_frontend"]}>
           <h3>{t('experience.frontend')}</h3>
-          <div className="experience_content">
-            <article className='experience_details'>
-              <ImHtmlFive className='experience_details-icon' />
+          <div className={styles["experience_content"]}>
+            <article className={styles['experience_details']}>
+              <ImHtmlFive className={styles['experience_details-icon' ]} />
               <div>
                 <h4>HTML</h4>
-                <small className='text-light'>{t('experience.advanced')}</small>
+                <small className={styles['text-light']}>{t('experience.advanced')}</small>
               </div>
             </article>
-            <article className='experience_details'>
-              <ImCss3 className='experience_details-icon' />
+            <article className={styles['experience_details']}>
+              <ImCss3 className={styles['experience_details-icon']} />
               <div>
                 <h4>CSS</h4>
                 <small className='text-light'>{t('experience.advanced')}</small>
               </div>
             </article>
-            <article className='experience_details'>
-              <SiJavascript className='experience_details-icon' />
+            <article className={styles['experience_details']}>
+              <SiJavascript className={styles['experience_details-icon']} />
               <div>
                 <h4>JAVASCRIPT</h4>
                 <small className='text-light'>{t('experience.intermediate')}</small>
               </div>
             </article>
-            <article className='experience_details'>
-              <SiTailwindcss className='experience_details-icon' />
+            <article className={styles['experience_details']}>
+              <SiTailwindcss className={styles['experience_details-icon']} />
               <div>
                 <h4>TAILWIND</h4>
                 <small className='text-light'>{t('experience.advanced')}</small>
               </div>
             </article>
-            <article className='experience_details'>
-              <RiReactjsLine className='experience_details-icon' />
+            <article className={styles['experience_details']}>
+              <RiReactjsLine className={styles['experience_details-icon' ]} />
               <div>
                 <h4>REACT</h4>
-                <small className='text-light'>{t('experience.intermediate')}</small>
+                <small className={styles['text-light']}>{t('experience.intermediate')}</small>
               </div>
             </article>
           </div>
         </div>
 
 
-        <div className="experience_backend">
+        <div className={styles["experience_backend"]}>
           <h3>{t('experience.backend')}</h3>
-          <div className="experience_content">
-          <article className='experience_details'>
-              <IoLogoNodejs className='experience_details-icon' />
+          <div className={styles["experience_content"]}>
+          <article className={styles['experience_details']}>
+              <IoLogoNodejs className={styles['experience_details-icon']} />
               <div>
                 <h4>NODEJS</h4>
-                <small className='text-light'>{t('experience.advanced')}</small>
+                <small className={styles['text-light']}>{t('experience.advanced')}</small>
               </div>
             </article>
-            <article className='experience_details'>
-              <TbBrandNextjs className='experience_details-icon' />
+            <article className={styles['experience_details']}>
+              <TbBrandNextjs className={styles['experience_details-icon']} />
               <div>
                 <h4>NEXTJS</h4>
                 <small className='text-light'>{t('experience.advanced')}</small>
               </div>
             </article>
-            <article className='experience_details'>
-              <SiMysql className='experience_details-icon' />
+            <article className={styles['experience_details']}>
+              <SiMysql className={styles['experience_details-icon']} />
               <div>
                 <h4>MYSQL</h4>
-                <small className='text-light'>{t('experience.intermediate')}</small>
+                <small className={styles['text-light']}>{t('experience.intermediate')}</small>
               </div>
             </article>
-            <article className='experience_details'>
-              <FaDocker className='experience_details-icon' />
+            <article className={styles['experience_details']}>
+              <FaDocker className={styles['experience_details-icon']} />
               <div>
                 <h4>DOCKER</h4>
-                <small className='text-light'>{t('experience.begginer')}</small>
+                <small className={styles['text-light']}>{t('experience.begginer')}</small>
               </div>
             </article>
           </div>

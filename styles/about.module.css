@@ -6,6 +6,11 @@
     margin: 0 auto;
 }
 
+.nosotros {
+    margin-top: 0;
+
+}
+
 .about_button {
     width: max-content;
     display: inline-block;

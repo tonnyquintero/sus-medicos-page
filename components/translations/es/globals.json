@@ -1,7 +1,7 @@
 {
     "Header": {
         "hello-world": "Bienvenidos a",
-        "ocupation": "IPS de salud ocupacional",
+        "ocupation": "IPS de salud ocupacional especializada en Medicina del Trabajo",
         "scroll": "Desplazar Abajo"
     },
     "cta": {
@@ -10,7 +10,7 @@
     },
     "about": {
         "getToKnow": "Conóceme",
-        "aboutMe": "Acerca de mi",
+        "aboutMe": "Acerca de Nosotros",
         "experience": "Experiencia",
         "years": "3+ Años Desarrollando",
         "clients": "Clientes",

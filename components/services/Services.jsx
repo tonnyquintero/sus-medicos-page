@@ -11,79 +11,79 @@ const Services = () => {
 
   return (
     <section id='services'>
-      <div className="container services_container">
+      <div className={styles["services_container"]}>
 
-      <article className='service'>
-          <div className="service_head">
+      <article className={styles['service']}>
+          <div className={styles["service_head"]}>
             <h3>{t("services.web")}</h3>
           </div>
 
-          <ul className='service_list'>
+          <ul className={styles['service_list']}>
             <li>
-              <BiCheck className='service_list-icon' />
+              <BiCheck className={styles['service_list-icon']} />
               <p>{t("services.creation")}</p>
             </li>
             <li>
-              <BiCheck className='service_list-icon' />
+              <BiCheck className={styles['service_list-icon' ]} />
               <p>{t("services.software")}</p>
             </li>
             <li>
-              <BiCheck className='service_list-icon' />
+              <BiCheck className={styles['service_list-icon']} />
               <p>{t("services.api")}</p>
             </li>
             <li>
-              <BiCheck className='service_list-icon' />
+              <BiCheck className={styles['service_list-icon']} />
               <p>{t("services.spa")}</p>
             </li>
           </ul>
         </article>
 
        
-        <article className='service'>
-          <div className="service_head">
+        <article className={styles['service']}>
+          <div className={styles["service_head"]}>
             <h3>{t("services.content")}</h3>
           </div>
 
-          <ul className='service_list'>
+          <ul className={styles['service_list']}>
             <li>
-              <BiCheck className='service_list-icon' />
+              <BiCheck className={styles['service_list-icon']} />
               <p>{t("services.social")}</p>
             </li>
             <li>
-              <BiCheck className='service_list-icon' />
+              <BiCheck className={styles['service_list-icon']} />
               <p>{t("services.blog")}</p>
             </li>
             <li>
-              <BiCheck className='service_list-icon' />
+              <BiCheck className={styles['service_list-icon']} />
               <p>{t("services.ads")}</p>
             </li>
             <li>
-              <BiCheck className='service_list-icon' />
+              <BiCheck className={styles['service_list-icon']} />
               <p>{t("services.seo")}</p>
             </li>
           </ul>
         </article>
 
-        <article className='service'>
-          <div className="service_head">
+        <article className={styles['service']}>
+          <div className={styles["service_head"]}>
             <h3>{t("services.skills")}</h3>
           </div>
 
-          <ul className='service_list'>
+          <ul className={styles['service_list']}>
             <li>
-              <BiCheck className='service_list-icon' />
+              <BiCheck className={styles['service_list-icon']} />
               <p>Excel</p>
             </li>
             <li>
-              <BiCheck className='service_list-icon' />
+              <BiCheck className={styles['service_list-icon']} />
               <p>Photoshop</p>
             </li>
             <li>
-              <BiCheck className='service_list-icon' />
+              <BiCheck className={styles['service_list-icon']} />
               <p>Three js</p>
             </li>
             <li>
-              <BiCheck className='service_list-icon' />
+              <BiCheck className={styles['service_list-icon']} />
               <p>Illustrator</p>
             </li>
           </ul>

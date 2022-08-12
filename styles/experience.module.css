@@ -1,4 +1,6 @@
 .experience_container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
