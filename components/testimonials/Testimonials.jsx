@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import explorer from '../../assets/explorer2.jpg';
-import next from '../../assets/nextjs2.png';
-import solidity from '../../assets/solidity2.jpg';
+import explorer from '../../assets/1.png';
+import next from '../../assets/2.png';
+import solidity from '../../assets/3.png';
 import styles from '../../styles/testimonials.module.css';
 
 // import Swiper core and required modules
@@ -39,7 +39,7 @@ const data = [
 const Testimonials = () => {
   return (
     <section id='testimonials'>
-      <h5>Posts</h5>
+      <h5 className={styles['h5']}>Últimos Posts</h5>
       <h2>Blog</h2>
 
       <Swiper className={styles['testimonial_container']}

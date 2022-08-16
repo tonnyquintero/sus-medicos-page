@@ -22,6 +22,10 @@
     
 }
 
+.h5 {
+    color: gray;
+}
+
 .contact_option {
     background: var(--color-bg-variant);
     padding: 1.2rem;

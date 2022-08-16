@@ -46,9 +46,9 @@
 
 .about_me-image {
     border-radius: 2rem;
-    padding-top: 2rem;
+
     overflow: hidden;
-    transform: rotate(10deg);
+
     transition: var(--transition);
     background: linear-gradient(
         45deg,
@@ -70,12 +70,13 @@
 }
 
 .about_card {
-    background: var(--color-bg-variant);
+    background: #DCDCDC;
     border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
+    color: #BA55D3;
 }
 
 .about_card:hover {
@@ -96,12 +97,16 @@
 
 .about_card small {
     font-size: 0.7rem;
-    color: var(--color-light);
+    color: #BA55D3
 }
 
 .about_content p {
     margin: 2rem 0 2.6rem;
-    color: var(--color-white);
+    color: #BA55D3;
+}
+
+.h5 {
+    color: gray;
 }
 
 @media screen and (max-width: 1024px) {

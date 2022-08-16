@@ -12,17 +12,17 @@
         "getToKnow": "Conóceme",
         "aboutMe": "Acerca de Nosotros",
         "experience": "Experiencia",
-        "years": "3+ Años Desarrollando",
+        "years": "+30 Años en el Mercado",
         "clients": "Clientes",
-        "clientsNumber": "10+ Clientes",
-        "projects": "Projectos",
-        "ProjectsNumber": "15+ Projectos Completos",
-        "description": "Desarrollador venezolano, los libros de ejercicios y el aprendizaje son algunas de mis aficiones. Activista a favor de la tecnología como terapia para el mundo.",
-        "letsTalk": "Hablemos"
+        "clientsNumber": "+1000 Clientes",
+        "projects": "Empresas",
+        "ProjectsNumber": "+300 Empresas",
+        "description": "Somos su aliado estratégico en la implementación de La Medicina del Trabajo. Realizamos exámenes médicos ocupacionales del estado de salud del trabajador. Somos además una IPS fundada en 1990, contamos con toda la experiencia y el conocimiento Jurídico, Técnico y Científico, para vigilar el estado de Salud del trabajador.",
+        "letsTalk": "Agenda tu cita"
     },
     "experience": {
-        "skills": "Que Habilidades Tengo",
-        "title": "Mi Experiencia",
+        "skills": "Lo que tenemos para ofrecerte",
+        "title": "Nuestros Servicios",
         "frontend": "Tecnologías Frontend",
         "advanced": "Avanzado",
         "intermediate": "Intermedio",
@@ -43,14 +43,14 @@
         "skills": "Otras Habilidades"
     },
     "portfolio": {
-        "work": "Mi Trabajo Reciente",
+        "work": "Nuestro Catalogo de Servicios",
         "title": "Portafolio",
         "visit": "Visitar"
     },
     "contact": {
         "touch": "Mantengámonos en Contacto",
-        "me": "Contáctame",
-        "sendA": "Envíame un Mensaje",
+        "me": "Contáctanos",
+        "sendA": "Envíanos un Mensaje",
         "send": "Enviar Mensaje",
         "name": "Tu Nombre Completo",
         "email": "Tu Correo Electronico",
@@ -58,13 +58,13 @@
     },
     "footer": {
         "home": "Inicio",
-        "about": "Acerca de Mi",
+        "about": "Acerca de Nosotros",
         "experience": "Experiencia",
         "portfolio": "Portafolio",
         "services": "servicios",
         "blog": "Blog",
         "contact": "Contacto",
-        "developed": "Desarrollado por",
+        "developed": "Desarrollado con 💚 por",
         "all": "Todos los Derechos Reservados."
     }
 }

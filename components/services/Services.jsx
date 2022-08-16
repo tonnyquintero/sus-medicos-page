@@ -11,6 +11,8 @@ const Services = () => {
 
   return (
     <section id='services'>
+      <h5 className={styles['h5']}>{t("experience.skills")}</h5>
+      <h2>{t("experience.title")}</h2>
       <div className={styles["services_container"]}>
 
       <article className={styles['service']}>

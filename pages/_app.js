@@ -7,7 +7,7 @@ import global_en from '../components/translations/en/global.json';
 
 i18next.init({
     interpolation: { escapeValue: false },
-    lng: "en",
+    lng: "es",
     resources: {
         es: {
             globals: global_es,

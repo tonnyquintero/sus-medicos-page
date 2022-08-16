@@ -19,6 +19,10 @@
     cursor: default;
 }
 
+.h5 {
+    color: gray;
+}
+
 .service_head {
     background: var(--color-primary);
     padding: 2rem;
