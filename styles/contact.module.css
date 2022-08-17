@@ -71,14 +71,14 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .container.contact_container {
+    .containor {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .container.contact_container {
+    .containor {
         width: var(--container-width-sm);
         
     }

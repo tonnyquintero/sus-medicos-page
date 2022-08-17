@@ -17,8 +17,8 @@ const Header = () => {
   return (
     <header className={styles['header']}>
         <div className={styles['header_container']}>
-          <h4>{t('Header.hello-world')}</h4>
-          <h1>Sus Médicos S.A.S.</h1>
+          <h4 className={styles['bienvenido']}>{t('Header.hello-world')}</h4>
+          <h1 className={styles['tittle']}>Sus Médicos S.A.S.</h1>
           <h3 className={styles['text-light']}>{t('Header.ocupation')}</h3>
           <CTA />
           <HeaderSocials />

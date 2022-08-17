@@ -8,8 +8,8 @@ const CTA = () => {
 
   return (
     <div className={styles.cta}>
-        <a href='#contact' download className='btn'>{t('cta.download')}</a>
-        <a href='#contact' className='btn btn-primary'>{t('cta.letsTalk')}</a>
+        <a href='#contact' className='btn'>{t('cta.download')}</a>
+        <a href='#portfolio' className='btn btn-primary'>{t('cta.letsTalk')}</a>
     </div>
   )
 }

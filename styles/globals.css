@@ -125,7 +125,7 @@ a:hover {
 .logo {
     width: fit-content;
     height: fit-content;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .infon {
@@ -182,6 +182,40 @@ img {
     object-fit: cover;
 }
 
+.navor {
+    height: 80px;
+    display: flex;
+    width: 100%;
+}
+
+.bar-btn {
+    display: none;
+}
+.nav-menu {
+    position: relative;
+    height: 75px;
+    top: 0;
+    background: #BA55D3;
+    transition: none;
+    width: 100%;
+    color: #fff;
+
+}
+.nav-menu li {
+    display: inline-block;
+    line-height: 100px;
+    margin: -10px 20px;
+    transition: none;
+}
+.nav-menu li a {
+    font-size: 18px;
+    color: #fff;
+}
+#check {
+    display: none;
+}
+
+
 /* ============================== MEDIA QUERIES ====================*/
 
 @media screen and (max-width: 1024px) {
@@ -200,10 +234,100 @@ img {
     }
 
     .containerFlag {
-        left: 75%;
+        display: none;
     }
 
     section > h2 {
         margin-bottom: 2rem;
     }
+    .navito {
+        position: absolute;
+        padding-bottom: 0;
+
+    }
+
+    .navo {
+        position: absolute;
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .navo h3 {
+        display: none;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+
+
+    .headero {
+        width: 100%;
+        height: 10vh;
+        background-color: #BA55D3;
+    }
+    .navor {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .loguito {
+        
+        margin-left: 0px;
+        margin-top: 0;
+    }
+    .bar-btn {
+       font-size: 25px;
+       color: #fff;
+       margin-right: 20px;
+       cursor: pointer; 
+       display: block;
+    }
+    .nav-menu {
+        position: fixed;
+        width: 100%;
+        height: 0vh;
+        top: 100px;
+        background: rgba(0, 0, 0, .95);
+        text-align: center;
+        transition: all .5s;
+    }
+    .nav-menu li {
+        display: none;
+        line-height: 30px;
+        margin: 50px 0;
+        transition: all .5s;
+    }
+    .nav-menu li a {
+        color:#BA55D3;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    .nav-menu li a.active, .nav-menu li a:hover {
+        color: #fff;
+        transition: .3s;
+    }
+    #check {
+        display: none;
+    }
+
+    #check:checked ~ .nav-menu {
+        height: 100vh;
+        z-index: 2;
+    }
+    #check:checked ~ .nav-menu li {
+        display: block;
+
+    }
+    #check:checked ~ .nav-menu li a.active {
+        display: none;
+    }
+
 }

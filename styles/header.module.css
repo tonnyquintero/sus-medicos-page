@@ -1,6 +1,6 @@
 .header {
-    height: 78vh;
-    padding-top: 6rem;
+    height: 62vh;
+    padding-top: 2rem;
     overflow: hidden;
 }
 
@@ -17,6 +17,14 @@
     display: flex;
     gap: 1.2rem;
     justify-content: center;
+}
+
+.bienvenido {
+    color: gray;
+}
+
+.tittle {
+    color: var(--color-primary);
 }
 
 .header_socials {
@@ -258,15 +266,22 @@
 
 @media screen and (max-width: 600px) {
     .header {
-      height: 100vh;  
+      height: 45vh;  
+      padding-top: 4.5rem;
     }
     .scroll_down {
         display: none;
     }
     .header_socials {
-        left: -7px;
-        z-index: 1;
+        display: none;
     }
+
+    .header_socials2 {
+        display: none;
+    }
+
+    
+
     .me {
         padding: 1rem 0 0;
         left: calc(50% - 10rem);

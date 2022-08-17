@@ -5,11 +5,11 @@
         "scroll": "Desplazar Abajo"
     },
     "cta": {
-        "download": "Descargar CV",
-        "letsTalk": "Hablemos"
+        "download": "Pide tu cita",
+        "letsTalk": "Portafolio"
     },
     "about": {
-        "getToKnow": "Conóceme",
+        "getToKnow": "Conócenos",
         "aboutMe": "Acerca de Nosotros",
         "experience": "Experiencia",
         "years": "+30 Años en el Mercado",
@@ -30,17 +30,17 @@
         "backend": "Tecnologías Backend"
     },
     "services": {
-        "web": "Desarrollo Web",
+        "web": "Exámenes Ocupacionales",
         "creation": "Creación de Sitios Web",
         "software": "Software con Base de Datos",
         "api": "Conexión con la Api de Whatsapp Busines",
         "spa": "Single Page Aplication con Html Css y JS",
-        "content": "Gestión de Contenido",
+        "content": "Asesoria Médico-Jurídica",
         "social": "Gestión de Redes Sociales",
         "blog": "Creación de Blog",
         "ads": "Google adds",
         "seo": "Servicio tecnico de Seo",
-        "skills": "Otras Habilidades"
+        "skills": "Otros Servicios."
     },
     "portfolio": {
         "work": "Nuestro Catalogo de Servicios",
