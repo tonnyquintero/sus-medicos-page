@@ -45,7 +45,7 @@ const data = [
   },
   {
     id: 6,
-    title: 'Siguenos...',
+    title: 'Manipulación de Alimentos',
     image: Toscana,
     gitHub: 'https://github.com/tonnyquintero/carta-toscana',
     deploy: 'https://carta-toscana.vercel.app/'
@@ -75,7 +75,6 @@ const Portfolio = () => {
                 </div>
               <h3>{title}</h3>
               <div className={styles["portfolio_item-cta"]}>
-                <a href={gitHub} className='btn' target='_blank' rel='noreferrer'>Git Hub</a>
                 <a href={deploy} className='btn btn-primary' target='_blank' rel='noreferrer'>{t("portfolio.visit")}</a>
               </div>
               </article>

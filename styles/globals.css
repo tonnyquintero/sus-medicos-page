@@ -326,8 +326,10 @@ img {
         display: block;
 
     }
-    #check:checked ~ .nav-menu li a.active {
-        display: none;
+
+    #back-menu:checked {
+        background-color: aqua;
     }
+    
 
 }

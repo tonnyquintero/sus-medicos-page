@@ -34,7 +34,7 @@ const Footer = () => {
       </div>
 
       <div className={styles.footer_copyright}>
-        <small>{t("footer.developed")} &copy; Anthony Quintero {t("footer.all")}</small>
+        <small>{t("footer.developed")} Anthony Quintero &copy; {t("footer.all")}</small>
       </div>
 
     </footer>

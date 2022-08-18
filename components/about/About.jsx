@@ -2,9 +2,10 @@ import React from 'react'
 import Image from 'next/image';
 import styles from '../../styles/about.module.css';
 import AboutPic from '../../assets/sus1.jpg';
-import dayana from '../../assets/dayana.jpg';
+import dayana from '../../assets/drJorge.jpg';
+import nexto from '../../assets/visiometria.jpg';
 import next from '../../assets/vicky.jpg';
-import solidity from '../../assets/doctorJorge.jpg';
+import solidity from '../../assets/audiometria.jpg';
 import {FaAward} from 'react-icons/fa';
 import {FiUsers} from 'react-icons/fi';
 import {VscFolderLibrary} from 'react-icons/vsc';
@@ -25,7 +26,7 @@ const data = [
     title: 'La despedida de internet explorer'
   },
   {
-    image: next,
+    image: nexto,
     title: 'Mi experiencia con Nextjs',
   },
   {
@@ -35,7 +36,11 @@ const data = [
   {
     image: dayana,
     title: 'El futuro de Solidityom'
-  }
+  },
+  {
+    image: next,
+    title: 'Mi experiencia con Nextjs',
+  },
 ]
 
 const About = () => {

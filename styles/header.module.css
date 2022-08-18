@@ -1,8 +1,10 @@
 .header {
-    height: 62vh;
+    height: 68vh;
     padding-top: 2rem;
     overflow: hidden;
 }
+
+
 
 .header_container {
     width: var(--container-width-lg);
@@ -267,7 +269,7 @@
 @media screen and (max-width: 600px) {
     .header {
       height: 45vh;  
-      padding-top: 4.5rem;
+      padding-top: 2.5rem;
     }
     .scroll_down {
         display: none;
@@ -287,5 +289,10 @@
         left: calc(50% - 10rem);
         width: 20rem;
         margin-top: 8rem;
+    }
+
+    .text-light {
+        font-weight: bold;
+        font-size:medium;
     }
 }

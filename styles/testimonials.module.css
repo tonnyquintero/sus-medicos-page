@@ -6,7 +6,7 @@
 }
 
 .client_avatar {
-    width: 4rem;
+    width: 6rem;
     aspect-ratio: 1/1;
     overflow: hidden;
     border-radius: 50%;
@@ -15,7 +15,7 @@
 }
 
 .testimonial {
-    background: gray;
+    background: #DCDCDC;
     text-align: center;
     padding: 2rem;
     border-radius: 2rem;
@@ -23,7 +23,7 @@
 }
 
 .client_review {
-    color: white;
+    color: black;
     font-weight: 300;
     display: block;
     width: 80%;
@@ -31,7 +31,7 @@
 }
 
 .client_name {
-    color: white;
+    color: #BA55D3;
     font-weight: 700;
     font-size: x-large;
 }

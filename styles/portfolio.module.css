@@ -27,9 +27,10 @@
     margin: 1.2rem 0 2rem;
 }
 .portfolio_item-cta {
-    display: flex;
+    
     gap: 1rem;
     margin-bottom: 1rem;
+    text-align: center;
 }
 
 .h5 {

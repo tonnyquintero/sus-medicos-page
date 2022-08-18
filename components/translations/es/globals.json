@@ -14,7 +14,7 @@
         "experience": "Experiencia",
         "years": "+30 Años en el Mercado",
         "clients": "Clientes",
-        "clientsNumber": "+1000 Clientes",
+        "clientsNumber": "+500 Clientes",
         "projects": "Empresas",
         "ProjectsNumber": "+300 Empresas",
         "description": "Somos su aliado estratégico en la implementación de La Medicina del Trabajo. Realizamos exámenes médicos ocupacionales del estado de salud del trabajador. Somos además una IPS fundada en 1990, contamos con toda la experiencia y el conocimiento Jurídico, Técnico y Científico, para vigilar el estado de Salud del trabajador.",
@@ -30,20 +30,20 @@
         "backend": "Tecnologías Backend"
     },
     "services": {
-        "web": "Exámenes Ocupacionales",
-        "creation": "Creación de Sitios Web",
-        "software": "Software con Base de Datos",
-        "api": "Conexión con la Api de Whatsapp Busines",
-        "spa": "Single Page Aplication con Html Css y JS",
-        "content": "Asesoria Médico-Jurídica",
-        "social": "Gestión de Redes Sociales",
-        "blog": "Creación de Blog",
-        "ads": "Google adds",
-        "seo": "Servicio tecnico de Seo",
-        "skills": "Otros Servicios."
+        "web": "Conceptos Médicos de Aptitud Laboral",
+        "creation": "Conceptos Médicos Especiales",
+        "software": "Exámenes de Laboratorio",
+        "api": "Salidas Extramurales",
+        "spa": "Conceptos Médicos Ocupacionales",
+        "content": "Valoración Integral a la salud",
+        "social": "Programa VIDAS",
+        "blog": "Calificación P.C.L.",
+        "ads": "Certificación de discapacidad",
+        "seo": "Asesoría Médico-Jurídica",
+        "skills": "Información Responsable"
     },
     "portfolio": {
-        "work": "Nuestro Catalogo de Servicios",
+        "work": "Nuestro Catálogo completo",
         "title": "Portafolio",
         "visit": "Visitar"
     },

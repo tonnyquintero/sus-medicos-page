@@ -74,19 +74,19 @@ const Services = () => {
           <ul className={styles['service_list']}>
             <li>
               <BiCheck className={styles['service_list-icon']} />
-              <p>Excel</p>
+              <p>Cotizaciones Ágiles</p>
             </li>
             <li>
               <BiCheck className={styles['service_list-icon']} />
-              <p>Photoshop</p>
+              <p>Profesiograma</p>
             </li>
             <li>
               <BiCheck className={styles['service_list-icon']} />
-              <p>Three js</p>
+              <p>Batería Psicosocial</p>
             </li>
             <li>
               <BiCheck className={styles['service_list-icon']} />
-              <p>Illustrator</p>
+              <p>Matriz Legal</p>
             </li>
           </ul>
         </article>
