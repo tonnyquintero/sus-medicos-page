@@ -60,7 +60,7 @@ function Navbar() {
     <>
       <nav className={styles['navbar']}>
 
-      <div className='loguito'>
+      <div className={styles['loguito']}>
             <Image className='logo' src={Me} alt='Logo' />
           </div>
         
