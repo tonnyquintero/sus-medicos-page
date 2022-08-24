@@ -6,6 +6,7 @@ import Rick from '../../assets/2.png';
 import Task from '../../assets/3.png';
 import Travel from '../../assets/4.png';
 import Toscana from '../../assets/5.png';
+
 import { useTranslation } from 'react-i18next';
 
 
@@ -17,7 +18,7 @@ const data = [
     title: 'Portafolio Completo',
     image: Store,
     gitHub: 'https://github.com/tonnyquintero/nextstore',
-    deploy: 'https://nextstore-neon.vercel.app/'
+    deploy: '/portafolio'
   },
 
   {
@@ -25,15 +26,15 @@ const data = [
     title: 'Ficha integral 1',
     image: Task,
     gitHub: 'https://github.com/tonnyquintero/Task-Machine',
-    deploy: 'https://tonnyquintero.github.io/Task-Machine/'
+    deploy: '/ficha1'
   },
 
   {
     id: 4,
-    title: 'Manipulación de Alimentos',
+    title: 'Conductor de Vehiculo o Mensajería',
     image: Travel,
     gitHub: 'https://github.com/tonnyquintero/tonnys-travel',
-    deploy: 'https://tonnys-travel.netlify.app/'
+    deploy: '/conductor'
   },
 
   {
@@ -41,14 +42,14 @@ const data = [
     title: 'Trabajo en Alturas',
     image: Rick,
     gitHub: 'https://github.com/tonnyquintero/Rick-and-Morty-Api',
-    deploy: 'https://rick-and-morty-api-pearl-sigma.vercel.app/'
+    deploy: '/alturas'
   },
   {
     id: 6,
     title: 'Manipulación de Alimentos',
     image: Toscana,
     gitHub: 'https://github.com/tonnyquintero/carta-toscana',
-    deploy: 'https://carta-toscana.vercel.app/'
+    deploy: '/manipulacion'
   },
   
 ]
@@ -75,7 +76,7 @@ const Portfolio = () => {
                 </div>
               <h3>{title}</h3>
               <div className={styles["portfolio_item-cta"]}>
-                <a href={deploy} className='btn btn-primary' target='_blank' rel='noreferrer'>{t("portfolio.visit")}</a>
+                <a href={deploy} className='btn btn-primary' >{t("portfolio.visit")}</a>
               </div>
               </article>
             )

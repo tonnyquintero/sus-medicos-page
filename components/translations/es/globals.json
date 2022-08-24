@@ -35,12 +35,16 @@
         "software": "Exámenes de Laboratorio",
         "api": "Salidas Extramurales",
         "spa": "Conceptos Médicos Ocupacionales",
-        "content": "Valoración Integral a la salud",
+        "content": "Valoración Integral del Daño a la salud",
         "social": "Programa VIDAS",
         "blog": "Calificación P.C.L.",
         "ads": "Certificación de discapacidad",
         "seo": "Asesoría Médico-Jurídica",
-        "skills": "Información Responsable"
+        "skills": "Información Responsable",
+        "programs": "Cotizaciones Ágiles",
+        "profesiograma": "Profesiograma",
+        "bateria": "Batería Psicosocial",
+        "matriz": "Matriz Legal"
     },
     "portfolio": {
         "work": "Nuestro Catálogo completo",

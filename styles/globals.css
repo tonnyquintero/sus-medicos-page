@@ -14,7 +14,7 @@
 :root {
     --color-bg: #fff;
     --color-bg-variant: #fff;
-    --color-primary: #BA55D3;
+    --color-primary: #663399;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #343a40;
     --color-light: rgba(255, 255, 255, 0.6); 
@@ -99,7 +99,7 @@ a:hover {
     position: fixed;
     width: 100%;
     padding-bottom: 3rem;
-    background-color: #BA55D3;
+    background-color: #663399;
     z-index: 2;
 
 }
@@ -166,7 +166,7 @@ a:hover {
 }
 
 .btn:hover {
-    background: var(--color-white);
+    background: #BA55D3;
     color: var(--color-bg);
     border-color: transparent;
 }

@@ -32,6 +32,14 @@
     margin-bottom: 4rem;
 }
 
+.tonny {
+    color: white;
+}
+
+.tonny-div {
+    margin-bottom: 4rem;
+}
+
 .footer_socials a {
     background: var(--color-bg);
     color: var(--color-white);
@@ -47,8 +55,8 @@
     border-color: var(--color-bg);
 }
 .footer_copyrigth {
-    margin-bottom: 4rem;
-    color: var(--color-bg);
+    margin-bottom: 8rem;
+    color: white;
 }
 
 @media screen and (max-width: 600px) {

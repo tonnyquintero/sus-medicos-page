@@ -33,8 +33,8 @@ const Footer = () => {
         <a href='https://www.linkedin.com/company/sus-m%C3%A9dicos/' target='blank'><BsLinkedin /></a>
       </div>
 
-      <div className={styles.footer_copyright}>
-        <small>{t("footer.developed")} Anthony Quintero &copy; {t("footer.all")}</small>
+      <div className={styles['tonny-div']}>
+        <small className={styles['tonny']}>{t("footer.developed")} Tonny Quintero &copy; {t("footer.all")}</small>
       </div>
 
     </footer>

@@ -5,20 +5,20 @@
         "scroll": "Scroll Down"
     },
     "cta": {
-        "download": "Download CV",
-        "letsTalk": "Let's Talk"
+        "download": "schedule your appointment",
+        "letsTalk": "PortFolio"
     },
     "about": {
-        "getToKnow": "Get to Know",
+        "getToKnow": "Get to Know Us",
         "aboutMe": "About Us",
         "experience": "Experience",
-        "years": "3+ Years Developing",
+        "years": "+30 Years On The Market",
         "clients": "Clients",
-        "clientsNumber": "10+ Clients",
-        "projects": "Projects",
-        "ProjectsNumber": "15+ Completed Projects",
-        "description": "Venezuelan developer, exercise books and learning are some of my hobbies. Activist in favor of technology as therapy for the world.",
-        "letsTalk": "Let's Talk"
+        "clientsNumber": "+500 Clients",
+        "projects": "Companies",
+        "ProjectsNumber": "+300 Companies",
+        "description": "We are your strategic ally in the implementation of Occupational Medicine. We carry out occupational medical examinations of the worker's health status. We are also an IPS founded in 1990, we have all the experience and legal, technical and scientific knowledge to monitor the health status of the worker.",
+        "letsTalk": "schedule your appointment"
     },
     "experience": {
         "skills": "What Skills I Have",
@@ -30,27 +30,31 @@
         "backend": "Backend Technologies"
     },
     "services": {
-        "web": "Web Development",
-        "creation": "Web sites Creation",
-        "software": "Software App with database",
-        "api": "Whatsapp Busines Api Connection",
-        "spa": "Single Page Aplication with Html Css and JS",
-        "content": "Content Managment",
-        "social": "Social Media Managment",
-        "blog": "Blog Creation",
-        "ads": "Google adds",
-        "seo": "Seo Tech service",
-        "skills": "Soft Skills"
+        "web": "Medical Concepts of ability for Work",
+        "creation": "Especial Medical Concepts",
+        "software": "Laboratory exams",
+        "api": "Extramurals WayOuts",
+        "spa": "Occupational Medical Concepts",
+        "content": "Comprehensive Assessment of Health Damage",
+        "social": "VIDAS Program",
+        "blog": "P.C.L. Calification",
+        "ads": "Disability Certification",
+        "seo": "Medical-Legal Advice",
+        "skills": "Responsible Information",
+        "programs": "Market Rates",
+        "profesiograma": "Professionogram",
+        "bateria": "Psychosocial Battery",
+        "matriz": "Legal Matrix"
     },
     "portfolio": {
-        "work": "My Recent Work",
+        "work": "Our Full Catalogue",
         "title": "Portfolio",
         "visit": "Visit"
     },
     "contact": {
         "touch": "Get in Touch",
-        "me": "Contact Me",
-        "sendA": "Send a Message",
+        "me": "Contact Us",
+        "sendA": "Send Us a Message",
         "send": "Send Message",
         "name": "Your Full Name",
         "email": "Your Email",
@@ -58,13 +62,13 @@
     },
     "footer": {
         "home": "Home",
-        "about": "About",
+        "about": "About Us",
         "experience": "Experience",
         "portfolio": "Portfolio",
         "blog": "Blog",
         "services": "services",
         "contact": "Contact",
-        "developed": "Developed by",
+        "developed": "Developed whit 💚 by",
         "all": "All rigths reserved."
     }
 }

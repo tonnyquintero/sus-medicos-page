@@ -22,6 +22,14 @@
     
 }
 
+.clasa {
+    color: #663399;
+    background: white;
+    border-radius: 45px;
+    width: 12em;
+}
+
+
 .h5 {
     color: gray;
 }
@@ -37,8 +45,9 @@
 }
 
 .contact_option:hover {
-    background: transparent;
+    background: #663399;
     border-color: var(--color-primary-variant);
+    color: white;
 }
 
 .contact_option-icon {
@@ -51,6 +60,11 @@
     display: inline-block;
     font-size: 0.8rem;
     font-weight: bold;
+}
+
+.contact_option a:hover {
+    background: #BA55D3;
+    color: white;
 }
 
 .form {
