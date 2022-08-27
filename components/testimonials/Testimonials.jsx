@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import explorer from '../../assets/round logo.png';
+import discapacidad from '../../assets/discapacidad.png';
 import styles from '../../styles/testimonials.module.css';
 
 // import Swiper core and required modules
@@ -15,11 +16,17 @@ import 'swiper/css/pagination';
 
 const data = [
   {
+    image: discapacidad,
+    title: 'Discapacidad. Una nueva realidad',
+    review: 'Seguramente estás familiarizado con el termino discapacidad, probablemente alguna persona allegada a tu circulo de amigos o familiares posee una. O simplemente vez las rampas en las zonas a donde te diriges...',
+    link: 'https://sus-medicos.blogspot.com/2022/08/discapacidad-una-nueva-realidad.html'
+  },
+  {
     image: explorer,
     title: 'La importancia de un Blog en una empresa',
     review: 'Con la llegada de los Blogs, la producción de la información dejo de ser exclusiva de los grandes medios y llego al alcance de cualquier persona o empresa, esto generó la aparición de micro-medios...',
     link: 'https://sus-medicos.blogspot.com/2022/08/la-importancia-de-un-blog-en-una-empresa.html'
-  }
+  } 
 ]
 
 const Testimonials = () => {
