@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import BurnOut from '../../assets/BurnOutWeb.png'
 import explorer from '../../assets/round logo.png';
 import discapacidad from '../../assets/discapacidad.png';
 import styles from '../../styles/testimonials.module.css';
@@ -15,6 +16,12 @@ import 'swiper/css/pagination';
 
 
 const data = [
+  {
+    image: BurnOut,
+    title: 'La sobrecarga de dopamina te hace un trabajador "Quemado"',
+    review: 'La dopamina en exceso está arruinando tu vida. ¿Recuerdas a tu persona antes del internet? ¿Recuerdas lo memorable que eran las películas? las canciones, los reencuentros con amigos, pues la frase "ya nada es como antes" tiene más vigencia que nunca...',
+    link: 'https://sus-medicos.blogspot.com/2022/09/la-sobrecarga-de-dopamina-te-hace-un.html'
+  },
   {
     image: discapacidad,
     title: 'Discapacidad. Una nueva realidad',
@@ -54,7 +61,7 @@ const Testimonials = () => {
                   <small className={styles['client_review']}>
                     {review}
                   </small>
-                  <a href={link} target="_blank" rel='noreferrer' className={styles['btn_blog']}>Visit</a>
+                  <a href={link} target="_blank" rel='noreferrer' className={styles['btn_blog']}>Visitar</a>
               </SwiperSlide>
             )
           } )
