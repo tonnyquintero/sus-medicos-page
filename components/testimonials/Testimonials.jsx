@@ -3,6 +3,7 @@ import Image from 'next/image';
 import BurnOut from '../../assets/BurnOutWeb.png'
 import explorer from '../../assets/round logo.png';
 import discapacidad from '../../assets/discapacidad.png';
+import lsv from '../../assets/lsv.png'
 import styles from '../../styles/testimonials.module.css';
 
 // import Swiper core and required modules
@@ -16,6 +17,12 @@ import 'swiper/css/pagination';
 
 
 const data = [
+  {
+    image: lsv,
+    title: 'Realidades históricas en la comunidad sorda',
+    review: '¿Sabías que durante muchos años la lengua de señas fue prohibida? A un punto en que algunos colegios les ataban las manos a los estudiantes sordos para obligarlos a aprender el lenguaje oral, como ocurrió en Suiza e incluso, Colombia...',
+    link: 'https://sus-medicos.blogspot.com/2022/09/realidades-historicas-en-la-comunidad.html'
+  },
   {
     image: BurnOut,
     title: 'La sobrecarga de dopamina te hace un trabajador "Quemado"',
