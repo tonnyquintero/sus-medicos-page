@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Sus Médicos</title>
+        <title>Sus Médicos IPS</title>
         <meta name="description" content="Conciencia Laboral y Valoración" />
         <link rel="icon" href="/favicon/favicon.ico" />
       </Head>
