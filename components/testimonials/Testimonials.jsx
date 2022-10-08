@@ -4,6 +4,7 @@ import BurnOut from '../../assets/BurnOutWeb.png'
 import explorer from '../../assets/round logo.png';
 import discapacidad from '../../assets/discapacidad.png';
 import lsv from '../../assets/lsv.png'
+import spoiler from '../../assets/spoiler.png'
 import styles from '../../styles/testimonials.module.css';
 
 // import Swiper core and required modules
@@ -17,6 +18,12 @@ import 'swiper/css/pagination';
 
 
 const data = [
+  {
+    image: spoiler,
+    title: 'Sus Médicos te da un SPOILER antes de entrar a tu trabajo',
+    review: 'Como si de una escena post-crédito de Marvel que tratara, nuestra institución te da un pequeño gran adelanto de como va a ser tu experiencia en el trabajo al cual vas a ingresar. ¿Cómo es esto posible? Aquí la contundente respuesta...',
+    link: 'https://sus-medicos.blogspot.com/2022/10/sus-medicos-te-da-un-spoiler-antes-de.html'
+  },
   {
     image: lsv,
     title: 'Realidades históricas en la comunidad sorda',
