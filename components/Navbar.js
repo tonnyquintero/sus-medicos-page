@@ -73,6 +73,22 @@ function Navbar() {
               Inicio
             </a>
           </li>
+          
+          <li
+            className={styles['nav-item']}
+            onMouseEnter={onMouseEnter}
+            onMouseLeave={onMouseLeave}
+          >
+            <a
+              target='blank'
+              href='https://vidas-page.vercel.app/'
+              className={styles['nav-links']}
+              onClick={closeMobileMenu}
+            >
+              Vidas <i className={styles['fas fa-caret-down']} />
+            </a>
+          </li>
+
           <li
             className={styles['nav-item']}
             onMouseEnter={onMouseEnter}
