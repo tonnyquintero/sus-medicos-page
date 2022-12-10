@@ -5,6 +5,7 @@ import explorer from '../../assets/round logo.png';
 import discapacidad from '../../assets/discapacidad.png';
 import lsv from '../../assets/lsv.png'
 import spoiler from '../../assets/spoiler.png'
+import visiometria from '../../assets/post6.png';
 import styles from '../../styles/testimonials.module.css';
 
 // import Swiper core and required modules
@@ -18,6 +19,12 @@ import 'swiper/css/pagination';
 
 
 const data = [
+  {
+    image: visiometria,
+    title: 'La realidad virtual, el futuro de la Visiometría',
+    review: 'Año 2022 y los autos aún no vuelan, si bien es cierto que la creatividad siempre va más rápido que los avances científicos. Estamos aún muy lejos de la distopía ciberpunk que tanto venden las grandes productoras. Sin embargo a un nivel más realista, estamos dando grandes avances tecnológicos cada año que no debemos pasar por alto...',
+    link: 'https://sus-medicos.blogspot.com/2022/12/la-realidad-virtual-el-futuro-de-la_9.html'
+  },
   {
     image: spoiler,
     title: 'Sus Médicos te da un SPOILER antes de entrar a tu trabajo',
