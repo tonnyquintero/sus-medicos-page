@@ -56,12 +56,28 @@ const Contact = () => {
               <a className={styles['clasa']} href="https://api.whatsapp.com/send?phone=573113725399" target="_blank" rel='noreferrer'>{t("contact.sendA")}</a>
             </article>
           </div>
-          <form className={styles['form']} ref={form} onSubmit={sendEmail} >
+          {/* <form className={styles['form']} ref={form} onSubmit={sendEmail} >
             <input className={styles.input} type="text" name="name" placeholder={t("contact.name")} required />
             <input className={styles.input} type="email" name='email' placeholder={t("contact.email")} required />
             <textarea className={styles.textarea} name="message" placeholder={t("contact.message")} rows="7" required></textarea>
             <button type='submit' className='btn'>{t("contact.send")}</button>
-          </form>
+          </form> */}
+
+        <div className={styles.box2}>
+        <form ref={form} onSubmit={sendEmail} className={styles.form2}>
+            <h2>Envíanos tu mensaje</h2>
+            <div className={styles.inputBox}>
+                <input type="text" name="name" placeholder='Nombre y Apellido' required="required" />
+                <i></i>
+            </div>
+            <div className={styles.inputBox}>
+                <input type="email" name='email' placeholder='Correo Electrónico' required="required" />
+                <i></i>
+            </div>
+          <textarea className={styles.inputBox} name="message" placeholder='Necesidad del Usuario' rows="7" required></textarea>
+          <button type='submit' className={styles.btnPrimary1}>Enviar</button>
+        </form>
+    </div>
         </div>
       </div>
       
