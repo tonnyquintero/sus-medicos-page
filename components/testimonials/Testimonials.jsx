@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import BurnOut from '../../assets/BurnOutWeb.png'
+import Historia from '../../assets/historiaBlog.png'
 import explorer from '../../assets/round logo.png';
 import discapacidad from '../../assets/discapacidad.png';
 import lsv from '../../assets/lsv.png'
@@ -19,6 +20,12 @@ import 'swiper/css/pagination';
 
 
 const data = [
+  {
+    image: Historia,
+    title: 'SALUD OCUPACIONAL COLOMBIANA -ORÍGENES-',
+    review: 'Hablar de salud ocupacional en Colombia es hablar de más de un siglo de historia, un tópico que bien podría dar para una novela de 100 capítulos, pero solo disponemos de un artículo y de una pequeña porción de tu tiempo así que, con mucho desmenuzamiento, he aquí una breve reseña...',
+    link: 'https://sus-medicos.blogspot.com/2023/02/salud-ocupacional-colombiana-origenes.html'
+  },
   {
     image: visiometria,
     title: 'La realidad virtual, el futuro de la Visiometría',
