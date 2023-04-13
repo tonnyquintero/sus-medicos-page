@@ -12,6 +12,7 @@ import Portfolio from '../components/portfolio/Portfolio';
 import Testimonials from '../components/testimonials/Testimonials';
 import Contact from '../components/contact/Contact';
 import Footer from '../components/footer/Footer';
+import Catalogo from '../components/catalogo/Catalogo';
 import espFlag from '../assets/colFlag.png';
 import enFlag from '../assets/enFlag.png';
 
@@ -55,6 +56,7 @@ export default function Home() {
        <Testimonials />
        <Contact />
        <Footer />
+       <Catalogo />
     </>
   )
 }

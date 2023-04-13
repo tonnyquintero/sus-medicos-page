@@ -4,6 +4,7 @@ import BurnOut from '../../assets/BurnOutWeb.png'
 import Historia from '../../assets/historiaBlog.png'
 import explorer from '../../assets/round logo.png';
 import discapacidad from '../../assets/discapacidad.png';
+import futuro from '../../assets/future.png';
 import lsv from '../../assets/lsv.png'
 import spoiler from '../../assets/spoiler.png'
 import visiometria from '../../assets/post6.png';
@@ -20,6 +21,12 @@ import 'swiper/css/pagination';
 
 
 const data = [
+  {
+    image: futuro,
+    title: 'EL FUTURO DE LA MEDICINA DEL TRABAJO',
+    review: 'Pensar el lo que va a pasar es de precavidos o de necios? Quizás un poco de las dos, por un lado nos ayuda a prepararnos, a tener una visión que nos pueda dar ventaja, pero por otro lado no son más que simples especulaciones. Es probable que el futuro de la medicina del trabajo esté determinado por varias tendencias y desarrollos...',
+    link: 'https://sus-medicos.blogspot.com/2023/04/el-futuro-de-la-medicina-del-trabajo.html'
+  },
   {
     image: Historia,
     title: 'SALUD OCUPACIONAL COLOMBIANA -ORÍGENES-',

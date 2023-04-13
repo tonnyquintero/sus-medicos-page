@@ -1,0 +1,7 @@
+.catalogo {
+    
+    display: flex;
+    padding-left: 2em;
+    padding-top: 2em;
+    gap: 1em;
+}
