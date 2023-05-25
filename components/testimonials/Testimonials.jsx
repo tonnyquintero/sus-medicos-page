@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import BurnOut from '../../assets/BurnOutWeb.png'
+import Industrial from '../../assets/industrial.png';
 import Historia from '../../assets/historiaBlog.png'
 import explorer from '../../assets/round logo.png';
 import discapacidad from '../../assets/discapacidad.png';
@@ -21,6 +22,12 @@ import 'swiper/css/pagination';
 
 
 const data = [
+  {
+    image: Industrial,
+    title: 'MEDICINA DEL TRABAJO EP. I -REVOLUCIÓN INDUSTRIAL-',
+    review: 'El acontecimiento que moldeó nuestro oficio definitivamente tuvo una época puntual en la historia, hablemos sobre el impacto que tuvo la revolución industrial cuyo nacimiento se desarrolló en la Gran Bretaña, sobre la medicina del trabajo y la salud ocupacional...',
+    link: 'https://sus-medicos.blogspot.com/2023/05/medicina-del-trabajo-ep-i-revolucion.html'
+  },
   {
     image: futuro,
     title: 'EL FUTURO DE LA MEDICINA DEL TRABAJO',

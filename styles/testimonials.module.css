@@ -31,7 +31,7 @@
 }
 
 .client_name {
-    color: #BA55D3;
+    color: var(--color-primary);
     font-weight: 700;
     font-size: x-large;
 }
