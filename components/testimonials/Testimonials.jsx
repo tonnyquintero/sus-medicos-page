@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import BurnOut from '../../assets/BurnOutWeb.png'
 import Industrial from '../../assets/industrial.png';
+import añoVeinte from '../../assets/añoVeinte.png';
 import Historia from '../../assets/historiaBlog.png'
 import explorer from '../../assets/round logo.png';
 import discapacidad from '../../assets/discapacidad.png';
@@ -22,6 +23,12 @@ import 'swiper/css/pagination';
 
 
 const data = [
+  {
+    image: añoVeinte,
+    title: 'MEDICINA DEL TRABAJO EP. II -LOS AÑOS 20-',
+    review: 'Hola familia, bienvenidos al segundo capitulo de la serie "medicina del trabajo" en la que abordamos el crecimiento de esta disciplina desde sus orígenes hasta llegar a ser lo que es el día de hoy, en esta ocasión presentamos los años 20, los locos años 20 como algunos historiadores llaman a esta época debido a su vertiginoso ritmo en muchos aspectos. ...',
+    link: 'https://sus-medicos.blogspot.com/2023/06/medicina-del-trabajo-ep-ii-los-anos-20.html'
+  },
   {
     image: Industrial,
     title: 'MEDICINA DEL TRABAJO EP. I -REVOLUCIÓN INDUSTRIAL-',
