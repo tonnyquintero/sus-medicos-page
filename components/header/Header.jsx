@@ -2,6 +2,7 @@ import React  from 'react';
 import Image from 'next/image';
 import CTA from './CTA';
 import Me from '../../assets/doctora.png';
+import banner from '../../assets/BANNER LINKEDIN.png'
 import doctores from '../../assets/doctores.png';
 import HeaderSocials from './HeaderSocials';
 import styles from '../../styles/header.module.css';
@@ -18,17 +19,10 @@ const Header = () => {
     <header className={styles['header']}>
         <div className={styles['header_container']}>
           <h4 className={styles['bienvenido']}>{t('Header.hello-world')}</h4>
-          <h1 className={styles['tittle']}>Sus Médicos S.A.S.</h1>
-          <h3 className={styles['text-light']}>{t('Header.ocupation')}</h3>
+
+          <h3 className={styles['textlik']}>{t('Header.ocupation')}</h3>
           <CTA />
           <HeaderSocials />
-
-          <div className={styles["me"]}>
-            <Image src={doctores} alt='Profile pic' />
-            <Image src={Me} width={150} height={150} alt='Profile pic' />
-          </div>
-
-          <a href='#contact' className={styles['scroll_down']}>{t('Header.scroll')}</a>
         </div>
     </header>
   )

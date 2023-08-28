@@ -6,6 +6,7 @@ import Rick from '../../assets/2.png';
 import Task from '../../assets/3.png';
 import Travel from '../../assets/4.png';
 import Toscana from '../../assets/5.png';
+import Cardio from '../../assets/6.png';
 
 import { useTranslation } from 'react-i18next';
 
@@ -50,6 +51,13 @@ const data = [
     image: Toscana,
     gitHub: 'https://github.com/tonnyquintero/carta-toscana',
     deploy: '/manipulacion'
+  },
+  {
+    id: 7,
+    title: 'Concepto Cardiovascular',
+    image: Cardio,
+    gitHub: 'https://github.com/tonnyquintero/carta-toscana',
+    deploy: '/cardio'
   },
   
 ]

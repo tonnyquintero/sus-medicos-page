@@ -10,7 +10,7 @@
     background: var(--color-bg-variant);
     padding: 1.3rem;
     border-radius: 2rem;
-    border: 1px solid transparent;
+    border: 1px solid #663399;
     transition: var(--transition);
 }
 
