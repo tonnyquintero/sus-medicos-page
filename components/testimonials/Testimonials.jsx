@@ -3,6 +3,7 @@ import Image from 'next/image';
 import BurnOut from '../../assets/BurnOutWeb.png'
 import Industrial from '../../assets/industrial.png';
 import añoVeinte from '../../assets/añoVeinte.png';
+import añoCincuenta from '../../assets/añocincuenta.png';
 import Historia from '../../assets/historiaBlog.png'
 import explorer from '../../assets/round logo.png';
 import discapacidad from '../../assets/discapacidad.png';
@@ -23,6 +24,12 @@ import 'swiper/css/pagination';
 
 
 const data = [
+  {
+    image: añoCincuenta,
+    title: 'MEDICINA DEL TRABAJO EP. III -LOS AÑOS 50-',
+    review: 'Bienvenidos y bienvenidas a un nuevo capítulo de la histórica saga que lleva por nombre "Medicina del trabajo" donde trazamos una línea temporal con acontecimientos destacados y que han llevado a la medicina del trabajo a lo que es hoy en día, en este capítulo abordamos la década de los 50s, un mundo en reestructuración con el suceso de la guerra mundial muy presente pero con la esperanza en incremento...',
+    link: 'https://sus-medicos.blogspot.com/2023/09/medicina-del-trabajo-ep-iii-los-anos-50.html'
+  },
   {
     image: añoVeinte,
     title: 'MEDICINA DEL TRABAJO EP. II -LOS AÑOS 20-',
