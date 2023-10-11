@@ -1,8 +1,8 @@
-import porta1 from '../assets/porta1.jpg'
-import porta2 from '../assets/porta2.jpg'
-import porta3 from '../assets/porta3.jpg'
-import porta4 from '../assets/porta4.jpg'
-import porta5 from '../assets/porta5.jpg'
+import porta1 from '../assets/porta1.png'
+import porta2 from '../assets/porta2.png'
+import porta3 from '../assets/porta3.png'
+import porta4 from '../assets/porta4.png'
+import porta5 from '../assets/porta5.png'
 import Image from 'next/image'
 import Link from 'next/link'
 
