@@ -29,10 +29,7 @@ const Services = () => {
               <BiCheck className={styles['service_list-icon' ]} />
               <p>{t("services.software")}</p>
             </li>
-            <li>
-              <BiCheck className={styles['service_list-icon']} />
-              <p>{t("services.api")}</p>
-            </li>
+            
             <li>
               <BiCheck className={styles['service_list-icon']} />
               <p>{t("services.spa")}</p>
