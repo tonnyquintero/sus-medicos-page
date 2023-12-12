@@ -32,6 +32,12 @@
     padding-left: 2rem;
 }
 
+.mediaMessage {
+    color: white;
+    padding-left: 2rem;
+    display: none;
+}
+
 .tittle {
     color: var(--color-primary);
 }
@@ -277,8 +283,9 @@
 
 @media screen and (max-width: 600px) {
     .header {
-      height: 45vh;  
-      padding-top: 2.5rem;
+        height: 46vh;
+        padding-top: 1.5rem;
+        background-image: unset;
     }
     .scroll_down {
         display: none;
@@ -291,6 +298,21 @@
         display: none;
     }
 
+    .mediaMessage {
+        color: var(--color-primary);
+        padding-left: 2rem;
+        display: block;
+        font-size: x-large;
+    }
+
+    .bienvenido {
+        color: var(--color-primary);
+        font-size: x-large;
+    }
+    
+    .textlik {
+        padding-top: 3rem;
+    }
     
 
     .me {
