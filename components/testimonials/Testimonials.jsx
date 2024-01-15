@@ -4,6 +4,7 @@ import BurnOut from '../../assets/BurnOutWeb.png'
 import Industrial from '../../assets/industrial.png';
 import añoVeinte from '../../assets/añoVeinte.png';
 import añoCincuenta from '../../assets/añocincuenta.png';
+import añoSetenta from '../../assets/setentas.png';
 import Historia from '../../assets/historiaBlog.png'
 import explorer from '../../assets/round logo.png';
 import discapacidad from '../../assets/discapacidad.png';
@@ -24,6 +25,12 @@ import 'swiper/css/pagination';
 
 
 const data = [
+  {
+    image: añoSetenta,
+    title: 'MEDICINA DEL TRABAJO EP. IV -LOS AÑOS 70-',
+    review: 'Hola familia 🦉 bienvenidos y bienvenidas a un nuevo año cargado de información ocupacional, continuamos con la saga que ha recorrido los acontecimientos del mundo y sobre todo de nuestra querida Colombia en temas de medicina del trabajo, esta vez con la década de los 70s donde la tecnología avanza, las industrias hacen lo propio y la salud ocupacional no se queda atrás...',
+    link: 'https://sus-medicos.blogspot.com/2024/01/medicina-del-trabajo-ep-iv-los-anos-70.html'
+  },
   {
     image: añoCincuenta,
     title: 'MEDICINA DEL TRABAJO EP. III -LOS AÑOS 50-',
