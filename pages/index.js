@@ -34,8 +34,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Sus Médicos IPS</title>
-        <meta name="description" content="Conciencia Laboral y Valoración" />
+        <title>Sus Médicos IPS, EXAMENES MEDICOS OCUPACIONALES EN MEDELLIN</title>
+        <meta name="description" content="EXAMENES MEDICOS OCUPACIONALES EN MEDELLIN, Conciencia Laboral y Valoración" />
         <link rel="icon" href="/favicon/favicon.ico" />
       </Head>
       <div className="containerFlag">
