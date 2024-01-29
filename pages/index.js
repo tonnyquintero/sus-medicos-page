@@ -35,7 +35,7 @@ export default function Home() {
     <>
       <Head>
         <title>Sus Médicos IPS, EXAMENES MEDICOS OCUPACIONALES EN MEDELLIN</title>
-        <meta name="description" content="EXAMENES MEDICOS OCUPACIONALES EN MEDELLIN, Conciencia Laboral y Valoración" />
+        <meta name="description" content="IPS EXAMENES MEDICOS OCUPACIONALES EN MEDELLIN, IPS EXÁMENES OCUPACIONALES MEDELLIN, EXAMENES MÉDICOS MEDELLIN, EXÁMENES DE LABORATORIO EN MEDELLIN, Conciencia Laboral y Valoración" />
         <link rel="icon" href="/favicon/favicon.ico" />
       </Head>
       <div className="containerFlag">
