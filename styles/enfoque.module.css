@@ -1,3 +1,16 @@
 .enfoque {
     background-color: #8C52FF;
+    display: flex;
+    gap: 2em;
+    padding-left: 2em;
+}
+
+.images {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 2em;
+}
+
+.h1 {
+    color: white;
 }
