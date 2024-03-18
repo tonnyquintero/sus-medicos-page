@@ -1,16 +1,41 @@
 .enfoque {
     background-color: #8C52FF;
     display: flex;
-    gap: 2em;
-    padding-left: 2em;
+    padding-left: 1em;
+    gap: 4em;
 }
 
 .images {
     display: flex;
     flex-direction: column-reverse;
     padding-top: 2em;
+    padding-right: 4em;
 }
 
 .h1 {
     color: white;
+    text-align: center;
 }
+
+
+.textToImage {
+    flex-direction: column-reverse;
+
+}
+
+.gridItem {
+    text-align: center;
+}
+
+.enfoqueImagios {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.enfoqueImagis {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
