@@ -99,7 +99,7 @@ a:hover {
     position: fixed;
     width: 100%;
     padding-bottom: 3rem;
-    background-color: #663399;
+    background-color: #8C52FF;
     z-index: 2;
 
 }
@@ -262,6 +262,8 @@ img {
     h1 {
         font-size: 2rem;
     }
+
+
 
 
 

@@ -14,27 +14,27 @@ import enfoque6 from '../assets/enfoque-6.png';
 
   
     return (
-      <section id='enfoque'>
-        <div className={styles['enfoque']}>
+
+        <>
+          <h1 className={styles['h1']}>ENFOQUE DIFERENCIAL</h1>
+      <div className={styles['enfoque']}>
         <div className={styles['images']}> 
-        <Image className={styles['buho']} src={enfoque} width={400} height={400} alt='icono-enfoque'></Image>
-        <Image src={logo} width={150} height={155} alt='logo-enfoque'></Image>
-      </div> 
-      <div>
-      <div className={styles['textToImage']}>
-      <h1 className={styles['h1']}>ENFOQUE DIFERENCIAL</h1>
+          <Image className={styles['buho']} src={enfoque} width={400} height={400} alt='icono-enfoque'></Image>
+          <Image src={logo}  alt='logo-enfoque'></Image>
+        </div> 
+      
+      <div className={styles['enfoqueImagis']}>
+        <Image src={enfoque1} width={450} height={450} alt='enfoque-info-1'></Image>
+        <Image src={enfoque2} width={450} height={450} alt='enfoque-info-2'></Image>
+        <Image src={enfoque3} width={450} height={450} alt='enfoque-info-3'></Image>
+        <Image src={enfoque4} width={450} height={450} alt='enfoque-info-4'></Image>
+        <Image src={enfoque5} width={450} height={450} alt='enfoque-info-5'></Image>
+        <Image src={enfoque6} width={450} height={450} alt='enfoque-info-6'></Image>
       </div>
-      <div className="enfoqueImagis">
-      <Image src={enfoque1} className={styles['gridItem']} width={350} height={350} alt='enfoque-info-1'></Image>
-      <Image src={enfoque2} className={styles['gridItem']} width={350} height={350} alt='enfoque-info-2'></Image>
-      <Image src={enfoque3} className={styles['gridItem']} width={350} height={350} alt='enfoque-info-3'></Image>
-      <Image src={enfoque4} className={styles['gridItem']} width={350} height={350} alt='enfoque-info-4'></Image>
-      <Image src={enfoque5} className={styles['gridItem']} width={350} height={350} alt='enfoque-info-5'></Image>
-      <Image src={enfoque6} className={styles['gridItem']} width={350} height={350} alt='enfoque-info-6'></Image>
-      </div>
-      </div>
+
         </div>
-      </section>
+        </>
+
     )
   }
 
