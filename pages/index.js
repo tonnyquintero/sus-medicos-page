@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-
+import Enfoque from '../components/Enfoque';
 import Header from '../components/header/Header';
 import Nav from '../components/nav/Nav';
 import Navbar from '../components/Navbar';
@@ -62,6 +62,7 @@ export default function Home() {
        <Header />
        <Nav />
        <About />
+       <Enfoque />
        <Services />
        <Portfolio />
        <Testimonials />

@@ -24,7 +24,7 @@
 
 .clasa {
     color: white;
-    background: #663399;
+    background: #8C52FF;
     border-radius: 45px;
     width: 12em;
     border: 1px solid #663399;
@@ -40,13 +40,12 @@
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
-    border: 1px solid transparent;
     transition: var(--transition);
-    border: 2px solid var(--color-primary-variant);
+    border: 2px solid #8C52FF;
 }
 
 .contact_option:hover {
-    background: #663399;
+    background: #8C52FF;
     border-color: var(--color-primary-variant);
     color: white;
 }
@@ -79,7 +78,7 @@
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid blueviolet;
+    border: 2px solid #8C52FF;
     resize: none;
     color: var(--color-white);
 
@@ -102,7 +101,7 @@
         width: 380px;
         height: 520px;
         background: linear-gradient(0deg, transparent, 
-        blueviolet, blueviolet);
+        #8C52FF, #8C52FF);
         transform-origin: bottom right;
         animation: animate 6s linear infinite;
     }
@@ -115,7 +114,7 @@
         width: 380px;
         height: 520px;
         background: linear-gradient(0deg, transparent, 
-        blueviolet, blueviolet);
+        #8C52FF, #8C52FF);
         transform-origin: bottom right;
         animation: animate 6s linear infinite;
         animation-delay: -9s;
@@ -225,7 +224,7 @@
       border: 1px solid var(--color-primary);
       transition: all 400ms ease;
       color: white;
-      background: blueviolet;
+      background: #8C52FF;
   }
 
   .btnPrimary1:hover {

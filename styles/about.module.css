@@ -76,7 +76,7 @@
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
-    color: #BA55D3;
+    color: #8C52FF;
 }
 
 .about_card:hover {
@@ -97,7 +97,7 @@
 
 .about_card small {
     font-size: 0.7rem;
-    color: #BA55D3
+    color: #6C509C
 }
 
 .about_content p {
