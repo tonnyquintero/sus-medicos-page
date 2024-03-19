@@ -135,6 +135,15 @@ function Navbar() {
               Contactanos
             </a>
           </li>
+          <li className={styles['nav-item']}>
+            <a
+              href='#section'
+              className={styles['nav-links']}
+              onClick={closeMobileMenu}
+            >
+              Enfoque Diferencial <i className={styles['fas fa-caret-down']} />
+            </a>
+          </li>
         </ul>
       </nav>
     </>

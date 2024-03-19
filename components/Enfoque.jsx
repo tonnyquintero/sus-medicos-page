@@ -15,25 +15,27 @@ import enfoque6 from '../assets/enfoque-6.png';
   
     return (
 
-        <>
-          <h1 className={styles['h1']}>ENFOQUE DIFERENCIAL</h1>
-      <div className={styles['enfoque']}>
-        <div className={styles['images']}> 
-          <Image className={styles['buho']} src={enfoque} width={400} height={400} alt='icono-enfoque'></Image>
-          <Image src={logo}  alt='logo-enfoque'></Image>
-        </div> 
+
+      <section id='section'>
+        <h1 className={styles['h1']}>ENFOQUE DIFERENCIAL</h1>
+        <div className={styles['enfoque']}>
+          <div className={styles['images']}> 
+            <Image className={styles['buho']} src={enfoque} width={400} height={400} alt='icono-enfoque'></Image>
+            <Image src={logo}  alt='logo-enfoque'></Image>
+          </div> 
       
-      <div className={styles['enfoqueImagis']}>
-        <Image src={enfoque1} width={450} height={450} alt='enfoque-info-1'></Image>
-        <Image src={enfoque2} width={450} height={450} alt='enfoque-info-2'></Image>
-        <Image src={enfoque3} width={450} height={450} alt='enfoque-info-3'></Image>
-        <Image src={enfoque4} width={450} height={450} alt='enfoque-info-4'></Image>
-        <Image src={enfoque5} width={450} height={450} alt='enfoque-info-5'></Image>
-        <Image src={enfoque6} width={450} height={450} alt='enfoque-info-6'></Image>
-      </div>
+          <div className={styles['enfoqueImagis']}>
+            <Image src={enfoque1} width={450} height={450} alt='enfoque-info-1'></Image>
+            <Image src={enfoque2} width={450} height={450} alt='enfoque-info-2'></Image>
+            <Image src={enfoque3} width={450} height={450} alt='enfoque-info-3'></Image>
+            <Image src={enfoque4} width={450} height={450} alt='enfoque-info-4'></Image>
+            <Image src={enfoque5} width={450} height={450} alt='enfoque-info-5'></Image>
+            <Image src={enfoque6} width={450} height={450} alt='enfoque-info-6'></Image>
+          </div>
 
         </div>
-        </>
+      </section>
+
 
     )
   }
