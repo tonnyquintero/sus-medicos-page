@@ -6,6 +6,8 @@ import dayana from '../../assets/drJorge.jpg';
 import nexto from '../../assets/visiometria.jpg';
 import next from '../../assets/vicky.jpg';
 import solidity from '../../assets/audiometria.jpg';
+import logo from '../../assets/logoRestaurante.png';
+import menu from '../../assets/menuRestaurante.png';
 import {FaAward} from 'react-icons/fa';
 import {FiUsers} from 'react-icons/fi';
 import {VscFolderLibrary} from 'react-icons/vsc';
@@ -40,6 +42,14 @@ const data = [
   {
     image: next,
     title: 'Mi experiencia con Nextjs',
+  },
+  {
+    image: logo,
+    title: 'Esta imagen debe removerse es de prueba',
+  },
+  {
+    image: menu,
+    title: 'Esta imagen debe removerse es de prueba 2',
   },
 ]
 
