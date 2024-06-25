@@ -42,15 +42,7 @@ const data = [
   {
     image: next,
     title: 'Mi experiencia con Nextjs',
-  },
-  {
-    image: logo,
-    title: 'Esta imagen debe removerse es de prueba',
-  },
-  {
-    image: menu,
-    title: 'Esta imagen debe removerse es de prueba 2',
-  },
+  }
 ]
 
 const About = () => {
