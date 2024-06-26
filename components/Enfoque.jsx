@@ -16,7 +16,7 @@ import enfoque6 from '../assets/enfoque-6.png';
     return (
 
 
-      <section id='section'>
+      <div id='section'>
         <h1 className={styles['h1']}>ENFOQUE DIFERENCIAL</h1>
         <div className={styles['enfoque']}>
           <div className={styles['images']}> 
@@ -34,7 +34,7 @@ import enfoque6 from '../assets/enfoque-6.png';
           </div>
 
         </div>
-      </section>
+      </div>
 
 
     )

@@ -5,8 +5,7 @@ import Header from '../components/header/Header';
 import Nav from '../components/nav/Nav';
 import Navbar from '../components/Navbar';
 import About from '../components/about/About';
-
-
+import Doctores from '../components/Doctores';
 import Services from '../components/services/Services';
 import Portfolio from '../components/portfolio/Portfolio';
 import Testimonials from '../components/testimonials/Testimonials';
@@ -34,7 +33,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name='robots' content='index, follow, max-image-preview:large, max-snipets:-1' />
         <title>Sus Médicos IPS, EXAMENES MEDICOS OCUPACIONALES EN MEDELLIN</title>
         <meta name="description" content="IPS EXAMENES MEDICOS OCUPACIONALES EN MEDELLIN, IPS EXÁMENES OCUPACIONALES MEDELLIN, EXAMENES MÉDICOS MEDELLIN, EXÁMENES DE LABORATORIO EN MEDELLIN, Conciencia Laboral y Valoración" />
@@ -62,6 +61,7 @@ export default function Home() {
        <Header />
        <Nav />
        <About />
+       <Doctores />
        <Enfoque />
        <Services />
        <Portfolio />
