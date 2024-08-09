@@ -3,6 +3,7 @@ import Image from 'next/image';
 import BurnOut from '../../assets/BurnOutWeb.png'
 import Industrial from '../../assets/industrial.png';
 import añoVeinte from '../../assets/añoVeinte.png';
+import añoOchenta from '../../assets/ochenta.png';
 import añoCincuenta from '../../assets/añocincuenta.png';
 import añoSetenta from '../../assets/setentas.png';
 import Historia from '../../assets/historiaBlog.png'
@@ -24,7 +25,12 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 
-const data = [
+const data = [{
+  image: añoOchenta,
+  title: 'MEDICINA DEL TRABAJO EP. V -LOS AÑOS 80-',
+  review: 'Hola familia 🦉 bienvenidos y bienvenidas a un nuevo capitulo de la saga histórica que analiza la medicina del trabajo y la salud ocupacional en el mundo y principalmente en nuestra Colombia querida...',
+  link: 'https://sus-medicos.blogspot.com/2024/08/medicina-del-trabajo-ep-v-los-anos-80.html'
+},
   {
     image: añoSetenta,
     title: 'MEDICINA DEL TRABAJO EP. IV -LOS AÑOS 70-',
