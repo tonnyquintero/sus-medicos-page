@@ -1,4 +1,4 @@
-import ficha11 from '../assets/3.png'
+//import ficha11 from '../public/assets/3.png'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -7,7 +7,7 @@ export default function Ficha1() {
     
     <Link href='/'><h2>Inicio</h2></Link>
     <div>
-    <Image className='imagen' src={ficha11} alt='imagen del portafolio' layout='intrinsic' />
+    <Image className='imagen' src='../public/assets/3.png' alt='imagen del portafolio' layout='intrinsic' />
     </div>
     <style jsx>{`
         div {

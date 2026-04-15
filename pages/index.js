@@ -12,8 +12,8 @@ import Testimonials from '../components/testimonials/Testimonials';
 import Contact from '../components/contact/Contact';
 import Footer from '../components/footer/Footer';
 import Catalogo from '../components/catalogo/Catalogo';
-import espFlag from '../assets/colFlag.png';
-import enFlag from '../assets/enFlag.png';
+//import espFlag from '../public/assets/colFlag.png';
+//import enFlag from '../public/assets/enFlag.png';
 
 import { useTranslation } from 'react-i18next';
 
@@ -50,10 +50,10 @@ export default function Home() {
       </Head>
       <div className="containerFlag">
                   <button className='btn-bg' onClick={() => i18n.changeLanguage("es")}>
-                    <Image className='btn-flag' src={espFlag} alt="Español" />
+                    <Image className='btn-flag' src='../public/assets/colFlag.png' alt="Español" />
                   </button>
                   <button className='btn-bg' onClick={() => i18n.changeLanguage("en")}>
-                    <Image className='btn-flag'  src={enFlag} alt="ingles" />
+                    <Image className='btn-flag'  src='../public/assets/enFlag.png' alt="ingles" />
                   </button>
 
               </div>

@@ -1,4 +1,4 @@
-import conductor1 from '../assets/4.png'
+//import conductor1 from '../public/assets/4.png'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -7,7 +7,7 @@ export default function Conductor() {
     
     <Link href='/'><h2>Inicio</h2></Link>
     <div>
-    <Image className='imagen' src={conductor1} alt='imagen del portafolio' layout='intrinsic' />
+    <Image className='imagen' src='../public/assets/4.png' alt='imagen del portafolio' layout='intrinsic' />
     </div>
     <style jsx>{`
         div {

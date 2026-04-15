@@ -1,4 +1,4 @@
-import altura1 from '../assets/2.png'
+//import altura1 from '../public/assets/2.png'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -7,7 +7,7 @@ export default function Alturas() {
     
     <Link href='/'><h2>Inicio</h2></Link>
     <div>
-    <Image className='imagen' src={altura1} alt='imagen del portafolio' layout='intrinsic' />
+    <Image className='imagen' src='../public/assets/2.png' alt='imagen del portafolio' layout='intrinsic' />
     </div>
     <style jsx>{`
         div {

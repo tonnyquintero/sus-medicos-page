@@ -1,4 +1,4 @@
-import manipulacion1 from '../assets/5.png'
+//import manipulacion1 from '../public/assets/5.png'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -7,7 +7,7 @@ export default function manipulacion() {
     
     <Link href='/'><h2>Inicio</h2></Link>
     <div>
-    <Image className='imagen' src={manipulacion1} alt='imagen del portafolio' layout='intrinsic' />
+    <Image className='imagen' src='../public/assets/5.png' alt='imagen del portafolio' layout='intrinsic' />
     </div>
     <style jsx>{`
         div {

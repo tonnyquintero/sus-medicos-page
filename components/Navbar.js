@@ -30,7 +30,7 @@
 import React, { useState } from 'react';
 import {GiHamburgerMenu} from 'react-icons/gi';
 import Image from 'next/image';
-import Me from '../assets/Nuevo Logo - copia.jpg'
+//import Me from '../public/assets/Nuevo Logo - copia.jpg'
 import styles from '../styles/Navbar.module.css'
 
 function Navbar() {
@@ -61,7 +61,7 @@ function Navbar() {
       <nav className={styles['navbar']}>
 
       <div className={styles['loguito']}>
-            <Image className='logo' src={Me} alt='Logo' />
+            <Image className='logo' src='../public/assets/Nuevo Logo - copia.jpg' alt='Logo' />
           </div>
         
         <div className={styles['menu-icon']} onClick={handleClick}>
